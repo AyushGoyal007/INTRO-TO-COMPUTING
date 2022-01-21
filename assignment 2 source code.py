@@ -55,13 +55,13 @@ a=int(input("length of first side is:"))
 b=int(input("length of second side is:"))
 c=int(input("length of third side is:"))
 if a>b+c:
-   print("no triangle possible")
+   print("No")
 elif b>a+b:
-   print("no triangle possible")
+   print("No")
 elif c>a+b:
-   print("no triangle possible")
+   print("No")
 else:
-   print("triangle is possible")
+   print("Yes")
 
 
 
