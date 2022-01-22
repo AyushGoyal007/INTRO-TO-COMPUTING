@@ -56,7 +56,7 @@ b=int(input("length of second side is:"))
 c=int(input("length of third side is:"))
 if a>b+c:
    print("No")
-elif b>a+b:
+elif b>a+c:
    print("No")
 elif c>a+b:
    print("No")
